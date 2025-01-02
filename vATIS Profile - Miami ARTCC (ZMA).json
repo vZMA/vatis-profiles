@@ -3,7 +3,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025010100,
+  "updateSerial": 2025010200,
   "stations": [
     {
       "id": "87ed3682-ee2b-473d-b418-1087e7c66399",
@@ -327,7 +327,7 @@
           "name": "D-ATIS",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -338,7 +338,7 @@
           "name": "EAST",
           "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 10L OR @10R. DEPG RWYS RWY 10L AND @10R. @PARL OPS ARE BEING CNTD. CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "notams": "",
-          "template": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -720,7 +720,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 119450000,
+      "frequency": 119150000,
       "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
