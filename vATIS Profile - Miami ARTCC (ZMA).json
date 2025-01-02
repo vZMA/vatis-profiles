@@ -3,7 +3,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025010200,
+  "updateSerial": 2025010201,
   "stations": [
     {
       "id": "87ed3682-ee2b-473d-b418-1087e7c66399",
@@ -1797,8 +1797,8 @@
       "name": "Tampa",
       "atisType": "Arrival",
       "codeRange": {
-        "low": "N",
-        "high": "Z"
+        "low": "A",
+        "high": "M"
       },
       "atisFormat": {
         "observationTime": {
@@ -2119,41 +2119,8 @@
           }
         },
         {
-          "id": "3605c582-2ac5-452f-af91-acbbdd8c5d6a",
-          "ordinal": 2,
-          "name": "ILS 1L/GPS 1R",
-          "airportConditions": "ILS APCH RY 1L GPS APCH RY 1R IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT. ",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ",
-          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "37a5e6c1-b88f-4b46-bb41-d80c51f63dbc",
-          "ordinal": 3,
-          "name": "ILS 19R/19L",
-          "airportConditions": "ILS APCH RY 19L AND RY 19R IN USE. ",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ",
-          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "461f1216-e334-4f88-8ff1-13e6f7762001",
-          "ordinal": 4,
-          "name": "ILS 1L",
-          "airportConditions": "ILS APCH RY 1L IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT. ",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ",
-          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
           "id": "cbdabe6d-a70f-42db-b64b-694244c07c21",
-          "ordinal": 5,
+          "ordinal": 1,
           "name": "VIS 1L/1R",
           "airportConditions": "SIMULTANEOUS VISUAL APPROACH RY 1L AND RY 1R IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT. ",
           "notams": "BIRD ACTIVITY VICINITY ARPT. ",
@@ -2164,7 +2131,7 @@
         },
         {
           "id": "a8f79496-f69f-49a9-b41b-54d2efd8a10f",
-          "ordinal": 6,
+          "ordinal": 2,
           "name": "VIS 19L/19R",
           "airportConditions": "SIMULTANEOUS VISUAL APPROACH RY 19R AND RY 19L IN USE. ",
           "notams": "BIRD ACTIVITY VICINITY ARPT. ",
@@ -2174,8 +2141,42 @@
           }
         },
         {
+          "id": "3605c582-2ac5-452f-af91-acbbdd8c5d6a",
+          "ordinal": 3,
+          "name": "ILS 1L/GPS 1R",
+          "airportConditions": "ILS APCH RY 1L GPS APCH RY 1R IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT. ",
+          "notams": "BIRD ACTIVITY VICINITY ARPT. ",
+          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "37a5e6c1-b88f-4b46-bb41-d80c51f63dbc",
+          "ordinal": 4,
+          "name": "ILS 19R/19L",
+          "airportConditions": "ILS APCH RY 19L AND RY 19R IN USE. ",
+          "notams": "BIRD ACTIVITY VICINITY ARPT. ",
+          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "461f1216-e334-4f88-8ff1-13e6f7762001",
+          "ordinal": 5,
+          "name": "ILS 1L",
+          "airportConditions": "ILS APCH RY 1L IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT. ",
+          "notams": "BIRD ACTIVITY VICINITY ARPT. ",
+          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        
+        {
           "id": "8d4ee691-3c16-4956-b6a0-061f435755c9",
-          "ordinal": 7,
+          "ordinal": 6,
           "name": "ILS 1L/LOC 1R",
           "airportConditions": "ILS APCH RY 1L LOC RY 1R IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT. ",
           "notams": "BIRD ACTIVITY VICINITY ARPT. ",
@@ -2186,7 +2187,7 @@
         },
         {
           "id": "00bcbc26-1128-47bb-8319-f35208539cff",
-          "ordinal": 8,
+          "ordinal": 7,
           "name": "VIS 1L/GPS 1R",
           "airportConditions": "SIMULTANEOUS VISUAL APPROACH RY 1L AND RY 1R GPS APCH RY 1R IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT. ",
           "notams": "BIRD ACTIVITY VICINITY ARPT. ",
