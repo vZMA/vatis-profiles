@@ -3,7 +3,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025010201,
+  "updateSerial": 2025010400,
   "stations": [
     {
       "id": "87ed3682-ee2b-473d-b418-1087e7c66399",
@@ -720,7 +720,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 119150000,
+      "frequency": 133675000,
       "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
@@ -1233,7 +1233,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 133675000,
+      "frequency": 119150000,
       "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
