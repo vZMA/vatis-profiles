@@ -3,7 +3,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025012600,
+  "updateSerial": 2025012601,
   "stations": [
     {
       "id": "87ed3682-ee2b-473d-b418-1087e7c66399",
@@ -1851,6 +1851,26 @@
           "variableName": "19R",
           "text": "19R",
           "voice": "ONE NINER RIGHT"
+        },
+        {
+          "variableName": "10",
+          "text": "10",
+          "voice": "ONE ZERO"
+        },
+        {
+          "variableName": "28",
+          "text": "28",
+          "voice": "TWO EIGHT"
+        },
+        {
+          "variableName": "01L",
+          "text": "01L",
+          "voice": "ONE LEFT"
+        },
+        {
+          "variableName": "01R",
+          "text": "01R",
+          "voice": "ONE RIGHT"
         }
       ],
       "airportConditionDefinitions": [],
@@ -2292,6 +2312,26 @@
           "variableName": "19R",
           "text": "19R",
           "voice": "ONE NINER RIGHT"
+        },
+        {
+          "variableName": "10",
+          "text": "10",
+          "voice": "ONE ZERO"
+        },
+        {
+          "variableName": "28",
+          "text": "28",
+          "voice": "TWO EIGHT"
+        },
+        {
+          "variableName": "01L",
+          "text": "01L",
+          "voice": "ONE LEFT"
+        },
+        {
+          "variableName": "01R",
+          "text": "01R",
+          "voice": "ONE RIGHT"
         }
       ],
       "airportConditionDefinitions": [],
