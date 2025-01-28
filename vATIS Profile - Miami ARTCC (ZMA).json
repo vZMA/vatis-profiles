@@ -3,7 +3,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025012701,
+  "updateSerial": 2025012702,
   "stations": [
     {
       "id": "87ed3682-ee2b-473d-b418-1087e7c66399",
@@ -369,7 +369,7 @@
           "id": "e221394a-f915-4517-b955-1b06dbb03805",
           "ordinal": 4,
           "name": "EAST NIGHT",
-          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 10L, RWY @10R28L NOISE SENSITIVE TILL 6 @AM. DEPG RWYS RWY 10L. CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 10L, RWY @10R_28L NOISE SENSITIVE TILL 6 @AM. DEPG RWYS RWY 10L. CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -380,7 +380,7 @@
           "id": "c7af1fd6-4812-4ee2-a037-aef0c0f2aa4d",
           "ordinal": 5,
           "name": "WEST NIGHT",
-          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 28R, RWY @10R28L NOISE SENSITIVE TILL 6 @AM. DEPG RWYS RWY 28R. CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 28R, RWY @10R_28L NOISE SENSITIVE TILL 6 @AM. DEPG RWYS RWY 28R. CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -415,9 +415,19 @@
           "voice": "TWO EIGHT RIGHT"
         },
         {
-          "variableName": "10R28L",
+          "variableName": "10R_28L",
           "text": "10R/28L",
           "voice": "ONE ZERO RIGHT/TWO EIGHT LEFT"
+        },
+        {
+          "variableName": "TORA8000",
+          "text": "TORA 8000",
+          "voice": "TAKEOFF RUN AVAILABLE EIGHT THOUSAND"
+        },
+        {
+          "variableName": "LDA7424",
+          "text": "LDA 7424",
+          "voice": "LANDING DISTANCE AVAILABLE SEVEN THOUSAND FOUR HUNDRED TWENTY FOUR"
         }
       ],
       "airportConditionDefinitions": [],
@@ -2660,7 +2670,7 @@
           "ordinal": 2,
           "name": "EAST",
           "airportConditions": "ILS RWY 10L IN USE. LNDG AND DEPG RWY 10L, @10R, @14. SIMUL APCHS TO @PARL @INTG AND OR @CNVGG RWYS ARE BEING CONDUCTED. READ BACK ALL RWY HOLD SHORT INSTRUCTIONS. ",
-          "notams": "BIRD ACTIVITY @VC OF ARPT. ALL @AFCT USE @CTN FOR RY 10L HOLD SHORT BARS PRIOR TO BEND IN TWY. USE CAUTION RWY @10R28L IS DIFFICULT TO SEE.",
+          "notams": "BIRD ACTIVITY @VC OF ARPT. ALL @AFCT USE @CTN FOR RY 10L HOLD SHORT BARS PRIOR TO BEND IN TWY. USE CAUTION RWY @10R_28L IS DIFFICULT TO SEE.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2671,7 +2681,7 @@
           "ordinal": 3,
           "name": "WEST",
           "airportConditions": "ILS RWY 28R IN USE. LNDG AND DEPG RWY 28R, @28L, @32. SIMUL APCHS TO @PARL @INTG AND OR @CNVGG RWYS ARE BEING CONDUCTED. READ BACK ALL RWY HOLD SHORT INSTRUCTIONS. ",
-          "notams": "BIRD ACTIVITY @VC OF ARPT. USE CAUTION RWY @10R28L IS DIFFICULT TO SEE.",
+          "notams": "BIRD ACTIVITY @VC OF ARPT. USE CAUTION RWY @10R_28L IS DIFFICULT TO SEE.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2682,7 +2692,7 @@
           "ordinal": 4,
           "name": "EAST LAHSO",
           "airportConditions": "ILS RWY 10L IN USE. LNDG AND DEPG RWY 10L, @10R, @14. SIMUL APCHS TO @PARL @INTG AND OR @CNVGG RWYS ARE BEING CONDUCTED. LAND AND HOLD SHORT IN EFFECT. READ BACK ALL RWY HOLD SHORT INSTRUCTIONS. ",
-          "notams": "BIRD ACTIVITY @VC OF ARPT. ALL @AFCT USE @CTN FOR RY 10L HOLD SHORT BARS PRIOR TO BEND IN TWY. USE CAUTION RWY @10R28L IS DIFFICULT TO SEE.",
+          "notams": "BIRD ACTIVITY @VC OF ARPT. ALL @AFCT USE @CTN FOR RY 10L HOLD SHORT BARS PRIOR TO BEND IN TWY. USE CAUTION RWY @10R_28L IS DIFFICULT TO SEE.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2691,7 +2701,7 @@
       ],
       "contractions": [
         {
-          "variableName": "10R28L",
+          "variableName": "10R_28L",
           "text": "1 0 RIGHT 28L",
           "voice": "ONE ZERO RIGHT TWO EIGHT LEFT"
         },
