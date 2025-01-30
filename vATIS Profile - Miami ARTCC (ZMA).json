@@ -3,7 +3,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025013003,
+  "updateSerial": 2025013004,
   "stations": [
     {
       "id": "87ed3682-ee2b-473d-b418-1087e7c66399",
@@ -3998,6 +3998,21 @@
           "variableName": "MIA",
           "text": "MIA",
           "voice": "MIAMI INTERNATIONAL AIRPORT"
+        },
+        {
+          "variableName": "SHRT",
+          "text": "SHRT",
+          "voice": "SHORT"
+        },
+        {
+          "variableName": "VKZ",
+          "text": "VKZ",
+          "voice": "VIRGINIA KEY"
+        },
+        {
+          "variableName": "DHP",
+          "text": "DHP",
+          "voice": "DOLPHIN"
         }
       ],
       "airportConditionDefinitions": [],
@@ -6007,6 +6022,21 @@
           "variableName": "MIA",
           "text": "MIA",
           "voice": "MIAMI INTERNATIONAL AIRPORT"
+        },
+        {
+          "variableName": "SHRT",
+          "text": "SHRT",
+          "voice": "SHORT"
+        },
+        {
+          "variableName": "VKZ",
+          "text": "VKZ",
+          "voice": "VIRGINIA KEY"
+        },
+        {
+          "variableName": "DHP",
+          "text": "DHP",
+          "voice": "DOLPHIN"
         }
       ],
       "airportConditionDefinitions": [],
