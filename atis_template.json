@@ -1,8 +1,8 @@
 {
-      "id": "769e147b-42fe-4fad-a009-a71475a8cf14",
-      "ordinal": 9,
-      "identifier": "KSRQ",
-      "name": "Sarasota",
+      "id": "769e147b-42fe-4fad-a016-a71475a8cf14",
+      "ordinal": 16,
+      "identifier": "KABC",
+      "name": "Name",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -1883,7 +1883,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 124375000,
+      "frequency": 000,
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
@@ -1893,9 +1893,9 @@
       "presets": [
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e0",
-          "name": "14 VMC",
-          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 14.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "name": "00 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 00.",
+          "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -1903,9 +1903,9 @@
         },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e1",
-          "name": "14 IMC",
-          "airportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 14.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "name": "00 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 00.",
+          "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -1913,9 +1913,9 @@
         },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e2",
-          "name": "32 VMC",
-          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 32.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "name": "00 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 00.",
+          "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -1923,9 +1923,9 @@
         },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e3",
-          "name": "32 IMC",
-          "airportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 32.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "name": "00 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 00.",
+          "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -1936,4 +1936,4 @@
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
       "transitionLevels": []
-    }
+    },
