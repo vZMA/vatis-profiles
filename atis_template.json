@@ -1,8 +1,8 @@
 {
       "id": "769e147b-42fe-4fad-a020-a71475a8cf14",
       "ordinal": 20,
-      "identifier": "KVRB",
-      "name": "Vero Beach",
+      "identifier": "KABC",
+      "name": "Name",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -1883,7 +1883,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 120575000,
+      "frequency": 000,
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
@@ -1893,8 +1893,8 @@
       "presets": [
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e0",
-          "name": "12L/12R VMC",
-          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 12L AND 12R.",
+          "name": "00 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 00.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -1903,8 +1903,8 @@
         },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e1",
-          "name": "12R IMC",
-          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 12R.",
+          "name": "00 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 00.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -1913,8 +1913,8 @@
         },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e2",
-          "name": "30L/30R VMC",
-          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 30L AND 30R.",
+          "name": "00 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 00.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -1923,48 +1923,8 @@
         },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e3",
-          "name": "30L IMC",
-          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 30L.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "8ab479ba-3e28-4ece-a123-e47d68e130e4",
-          "name": "12 VMC",
-          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 12.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "8ab479ba-3e28-4ece-a123-e47d68e130e5",
-          "name": "12 IMC",
-          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 12.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "8ab479ba-3e28-4ece-a123-e47d68e130e6",
-          "name": "12 VMC",
-          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 12.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "8ab479ba-3e28-4ece-a123-e47d68e130e7",
-          "name": "12 IMC",
-          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 12.",
+          "name": "00 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 00.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
