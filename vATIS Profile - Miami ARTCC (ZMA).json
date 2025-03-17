@@ -3,7 +3,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025031603,
+  "updateSerial": 2025031604,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -1928,7 +1928,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}.."
           }
         }
       },
@@ -4057,7 +4057,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}.."
           }
         }
       },
@@ -6163,7 +6163,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}.."
           }
         }
       },
@@ -8211,7 +8211,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}.."
           }
         }
       },
@@ -10229,7 +10229,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}.."
           }
         }
       },
@@ -12280,7 +12280,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}.."
           }
         }
       },
@@ -14322,7 +14322,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}.."
           }
         }
       },
@@ -16307,7 +16307,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -16326,7 +16326,7 @@
           "name": "9 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 9.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -16336,7 +16336,7 @@
           "name": "9 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 9.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -16346,7 +16346,7 @@
           "name": "27 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 27.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -16356,7 +16356,7 @@
           "name": "27 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 27.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -18246,7 +18246,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -18265,7 +18265,7 @@
           "name": "14 VMC",
           "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 14.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -18275,7 +18275,7 @@
           "name": "14 IMC",
           "airportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 14.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -18285,7 +18285,7 @@
           "name": "32 VMC",
           "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 32.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -18295,7 +18295,7 @@
           "name": "32 IMC",
           "airportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 32.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -18305,7 +18305,7 @@
           "name": "4 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 4.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -18315,7 +18315,7 @@
           "name": "4 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 4.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -18325,7 +18325,7 @@
           "name": "22 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 22.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -18335,7 +18335,7 @@
           "name": "22 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 22.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -20225,7 +20225,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -20244,7 +20244,7 @@
           "name": "9/13 VMC",
           "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWYS 9 AND 13.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -20254,7 +20254,7 @@
           "name": "9 IMC",
           "airportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 9.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -20264,7 +20264,7 @@
           "name": "27/31 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 27 AND 31.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -20274,7 +20274,7 @@
           "name": "27 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 27.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -22164,7 +22164,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -22183,7 +22183,7 @@
           "name": "6 VMC",
           "airportConditions": "ILS, TACAN, AND VIS APCHS IN USE. LNDG AND DEPG RWY 6.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -22193,7 +22193,7 @@
           "name": "6 IMC",
           "airportConditions": "ILS AND TACAN APCHS IN USE. LNDG AND DEPG RWY 6.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -22203,7 +22203,7 @@
           "name": "24 VMC",
           "airportConditions": "RNAV, TACAN, AND VIS APCHS IN USE. LNDG AND DEPG RWY 24.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -22213,7 +22213,7 @@
           "name": "24 IMC",
           "airportConditions": "RNAV AND TACAN APCHS IN USE. LNDG AND DEPG RWY 24.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -24103,7 +24103,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -24122,7 +24122,7 @@
           "name": "10L/10R VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 10L AND 10R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -24132,7 +24132,7 @@
           "name": "10R IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 10R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -24142,7 +24142,7 @@
           "name": "28L/28R VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 28L AND 28R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -24152,7 +24152,7 @@
           "name": "28R IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 28R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -24162,7 +24162,7 @@
           "name": "1L/1R VMC",
           "airportConditions": "VIS APCHS IN USE. LNDG AND DEPG RWYS 1L AND 1R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -24172,7 +24172,7 @@
           "name": "19L/19R VMC",
           "airportConditions": "VIS APCHS IN USE. LNDG AND DEPG RWYS 19L AND 19R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -26062,7 +26062,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -26081,7 +26081,7 @@
           "name": "9L/9R/12 VMC",
           "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWYS 9L, 9R, AND 12.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -26091,7 +26091,7 @@
           "name": "9L/12 IMC",
           "airportConditions": "ILS APCHS IN USE. LNDG AND DEPG RWYS 9L AND 12.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -26101,7 +26101,7 @@
           "name": "27L/27R/30 VMC",
           "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWYS 27L, 27R, AND 30.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -26111,7 +26111,7 @@
           "name": "27R/30 IMC",
           "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWYS 27R AND 30.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -28001,7 +28001,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -28020,7 +28020,7 @@
           "name": "15 VMC",
           "airportConditions": "RNAV, LOC, AND VIS APCHS IN USE. LNDG AND DEPG RWY 15.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -28030,7 +28030,7 @@
           "name": "15 IMC",
           "airportConditions": "RNAV AND LOC APCHS IN USE. LNDG AND DEPG RWY 15.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -28040,7 +28040,7 @@
           "name": "33 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 33.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -28050,7 +28050,7 @@
           "name": "33 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 33.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -28060,7 +28060,7 @@
           "name": "6 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 6.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -28070,7 +28070,7 @@
           "name": "6 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 6.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -28080,7 +28080,7 @@
           "name": "24 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 24.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -28090,7 +28090,7 @@
           "name": "24 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 24.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -29980,7 +29980,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -29999,7 +29999,7 @@
           "name": "9L/9R/13 VMC",
           "airportConditions": "ILS, RNAV, AND VIS APCHS IN USE. LNDG AND DEPG RWYS 9L, 9R, AND 13.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -30009,7 +30009,7 @@
           "name": "9L/9R IMC",
           "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWYS 9L AND 9R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -30019,7 +30019,7 @@
           "name": "27L/27R/31 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 27L, 27R, AND 31.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -30029,7 +30029,7 @@
           "name": "27L/27R IMC",
           "airportConditions": "RNAV APCHS IN USE. LNDG AND DEPG RWYS 27L AND 27R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -31919,7 +31919,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -31938,7 +31938,7 @@
           "name": "10 VMC",
           "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 10.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -31948,7 +31948,7 @@
           "name": "10 IMC",
           "airportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 10.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -31958,7 +31958,7 @@
           "name": "28 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 28.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -31968,7 +31968,7 @@
           "name": "28 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 28.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -31978,7 +31978,7 @@
           "name": "5 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 5.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -31988,7 +31988,7 @@
           "name": "5 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 5.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -31998,7 +31998,7 @@
           "name": "23 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 23.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -32008,7 +32008,7 @@
           "name": "23 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 23.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -33898,7 +33898,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -33917,7 +33917,7 @@
           "name": "5 VMC",
           "airportConditions": "ILS, TACAN, AND VIS APCHS IN USE. LNDG AND DEPG RWY 5.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -33927,7 +33927,7 @@
           "name": "5 IMC",
           "airportConditions": "ILS AND TACAN APCHS IN USE. LNDG AND DEPG RWY 5.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -33937,7 +33937,7 @@
           "name": "23 VMC",
           "airportConditions": "ILS, TACAN, AND VIS APCHS IN USE. LNDG AND DEPG RWY 23.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -33947,7 +33947,7 @@
           "name": "23 IMC",
           "airportConditions": "ILS AND TACAN APCHS IN USE. LNDG AND DEPG RWY 0230.",
           "notams": "BIRD ACTIVITY VICINITY ARPT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -35837,7 +35837,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -35856,7 +35856,7 @@
           "name": "36/4 VMC",
           "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWYS 4 AND 36.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -35866,7 +35866,7 @@
           "name": "36 IMC",
           "airportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 36.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -35876,7 +35876,7 @@
           "name": "18/22 VMC",
           "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWYS 18 AND 22.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -35886,7 +35886,7 @@
           "name": "18 IMC",
           "airportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 18.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -37776,7 +37776,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -37795,7 +37795,7 @@
           "name": "10L/10R/14 VMC",
           "airportConditions": "ILS, RNAV, AND VIS APCHS IN USE. LNDG AND DEPG RWYS 10L, 10R, AND 14.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -37805,7 +37805,7 @@
           "name": "10R/14 IMC",
           "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWYS 10R AND 14.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -37815,7 +37815,7 @@
           "name": "28L/28R/32 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 28L, 28R, AND 32.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -37825,7 +37825,7 @@
           "name": "28L/32 IMC",
           "airportConditions": "RNAV APCHS IN USE. LNDG AND DEPG RWYS 28L AND 32.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -39715,7 +39715,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -39734,7 +39734,7 @@
           "name": "12 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 12.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -39744,7 +39744,7 @@
           "name": "12 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 12.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -39754,7 +39754,7 @@
           "name": "30 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 30.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -39764,7 +39764,7 @@
           "name": "30 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 30.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -39774,7 +39774,7 @@
           "name": "7 VMC",
           "airportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 7.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -39784,7 +39784,7 @@
           "name": "25 VMC",
           "airportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 25.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -39794,7 +39794,7 @@
           "name": "16 VMC",
           "airportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 16.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -39804,7 +39804,7 @@
           "name": "34 VMC",
           "airportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 34.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -41694,7 +41694,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -41713,7 +41713,7 @@
           "name": "12L/12R VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 12L AND 12R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -41723,7 +41723,7 @@
           "name": "12R IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 12R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -41733,7 +41733,7 @@
           "name": "30L/30R VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 30L AND 30R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -41743,7 +41743,7 @@
           "name": "30L IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 30L.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -41753,7 +41753,7 @@
           "name": "4 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 4.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -41763,7 +41763,7 @@
           "name": "4 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 4.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -41773,7 +41773,7 @@
           "name": "22 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 22.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -41783,7 +41783,7 @@
           "name": "22 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 22.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -43673,7 +43673,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -43692,7 +43692,7 @@
           "name": "5 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 5.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -43702,7 +43702,7 @@
           "name": "5 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 5.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -43712,7 +43712,7 @@
           "name": "23 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 23.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -43722,7 +43722,7 @@
           "name": "23 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 23.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -43732,7 +43732,7 @@
           "name": "14 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 14.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -43742,7 +43742,7 @@
           "name": "14 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 14.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -43752,7 +43752,7 @@
           "name": "32 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 32.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -43762,7 +43762,7 @@
           "name": "32 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 32.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -45652,7 +45652,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -45671,7 +45671,7 @@
           "name": "5 VMC",
           "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 5.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -45681,7 +45681,7 @@
           "name": "5 IMC",
           "airportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 5.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -45691,7 +45691,7 @@
           "name": "23 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 23.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -45701,7 +45701,7 @@
           "name": "23 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 23.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -45711,7 +45711,7 @@
           "name": "15 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 15.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -45721,7 +45721,7 @@
           "name": "15 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 15.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -45731,7 +45731,7 @@
           "name": "33 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 33.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -45741,7 +45741,7 @@
           "name": "33 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 33.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -47631,7 +47631,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "...ADVS YOU HAVE INFO {letter}.",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}."
           }
         }
       },
@@ -47650,7 +47650,7 @@
           "name": "4 VMC",
           "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 4.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -47660,7 +47660,7 @@
           "name": "4 IMC",
           "airportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 4.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -47670,7 +47670,7 @@
           "name": "22 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 22.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -47680,7 +47680,7 @@
           "name": "22 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 22.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -47690,7 +47690,7 @@
           "name": "15 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 15.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -47700,7 +47700,7 @@
           "name": "15 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 15.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -47710,7 +47710,7 @@
           "name": "33 VMC",
           "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 33.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -47720,7 +47720,7 @@
           "name": "33 IMC",
           "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 33.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
