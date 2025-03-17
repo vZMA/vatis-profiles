@@ -24166,7 +24166,7 @@
           "externalGenerator": {
             "enabled": false
           }
-        }
+        },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e5",
           "name": "19L/19R VMC",
@@ -28101,7 +28101,7 @@
       "notamDefinitions": [],
       "transitionLevels": []
     },
-{
+    {
       "id": "769e147b-42fe-4fad-a015-a71475a8cf14",
       "ordinal": 15,
       "identifier": "KTMB",
