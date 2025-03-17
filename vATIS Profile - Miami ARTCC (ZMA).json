@@ -26109,7 +26109,7 @@
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e3",
           "name": "27R/30 IMC",
-          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWYS 27R AMD 30.",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWYS 27R AND 30.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -30027,7 +30027,7 @@
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e3",
           "name": "27L/27R IMC",
-          "airportConditions": "RNAV APCHS IN USE. LNDG AND DEPG RWYS 27L AMD 27R.",
+          "airportConditions": "RNAV APCHS IN USE. LNDG AND DEPG RWYS 27L AND 27R.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
