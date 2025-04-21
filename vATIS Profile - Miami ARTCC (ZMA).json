@@ -3,7 +3,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025041901,
+  "updateSerial": 2025042101,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -2001,7 +2001,7 @@
           "id": "487a9814-2dc6-42aa-b59a-b7f5eb5ee35c",
           "ordinal": 6,
           "name": "EAST HIGH RATE",
-          "airportConditions": "DEPG RWYS 8L, 8R, 9, 12. FOLZZ AND SOUTH DEPT EXPECT RWY 8R AT M2. @9200FT AVAILABLE.",
+          "airportConditions": "DEPG RWYS 8L, 8R, 9, 12. ALL @DEPT AT MAIN TERMINAL EXPECT @8R AT @M2. @9200FT AVAILABLE.",
           "notams": "BIRDS INVOF MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
