@@ -3,7 +3,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025042301,
+  "updateSerial": 2025042302,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -8241,7 +8241,7 @@
           "ordinal": 2,
           "name": "1L/1R",
           "airportConditions": "DEPG RY 1R, RY 1L.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -8252,7 +8252,7 @@
           "ordinal": 3,
           "name": "19L/19R",
           "airportConditions": "DEPG RY 19R, RY 19L. AIR CARRIER TYPE DEPARTURES EXP RY 19R FOR NOISE ABATEMENT.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -8263,7 +8263,7 @@
           "ordinal": 4,
           "name": "1L",
           "airportConditions": "DEPG RY 1L.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -8274,7 +8274,7 @@
           "ordinal": 5,
           "name": "19R",
           "airportConditions": "DEPG RY 19R. AIR CARRIER TYPE DEPARTURES EXP RY 19R FOR NOISE ABATEMENT.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10274,7 +10274,7 @@
           "ordinal": 1,
           "name": "VIS 1L/1R",
           "airportConditions": "SIMULTANEOUS VISUAL APPROACH RY 1L AND RY 1R IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10285,7 +10285,7 @@
           "ordinal": 2,
           "name": "VIS 19L/19R",
           "airportConditions": "SIMULTANEOUS VISUAL APPROACH RY 19R AND RY 19L IN USE.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "",
           "externalGenerator": {
             "enabled": false
@@ -10296,7 +10296,7 @@
           "ordinal": 3,
           "name": "ILS 1L/GPS 1R",
           "airportConditions": "ILS APCH RY 1L GPS APCH RY 1R IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10307,7 +10307,7 @@
           "ordinal": 4,
           "name": "ILS 19R/19L",
           "airportConditions": "ILS APCH RY 19L AND RY 19R IN USE.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10318,7 +10318,7 @@
           "ordinal": 5,
           "name": "ILS 1L",
           "airportConditions": "ILS APCH RY 1L IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10329,7 +10329,7 @@
           "ordinal": 6,
           "name": "ILS 1L/LOC 1R",
           "airportConditions": "ILS APCH RY 1L LOC RY 1R IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10340,7 +10340,7 @@
           "ordinal": 7,
           "name": "VIS 1L/GPS 1R",
           "airportConditions": "SIMULTANEOUS VISUAL APPROACH RY 1L AND RY 1R GPS APCH RY 1R IN USE. TURBOJET ARRIVALS EXP RY 1L FOR NOISE ABATEMENT.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -14382,7 +14382,7 @@
           "ordinal": 2,
           "name": "VIS 6",
           "airportConditions": "VISUAL APPROACH RWY 6 IN USE.",
-          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE VCNTY OF KRSW.",
+          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -14393,7 +14393,7 @@
           "ordinal": 3,
           "name": "VIS 24",
           "airportConditions": "VISUAL APPROACH RY 24 IN USE.",
-          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE VCNTY OF KRSW.",
+          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -14404,7 +14404,7 @@
           "ordinal": 4,
           "name": "ILS 6",
           "airportConditions": "ILS RWY 6 APPROACH IN USE.",
-          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE VCNTY OF KRSW.",
+          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -14415,7 +14415,7 @@
           "ordinal": 5,
           "name": "RNAV 24",
           "airportConditions": "RNAV RWY 24 APPROACH IN USE.",
-          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE VCNTY OF KRSW.",
+          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -14426,7 +14426,7 @@
           "ordinal": 6,
           "name": "RNAV 6",
           "airportConditions": "RNAV RWY 6 APPROACH IN USE.",
-          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE VCNTY OF KRSW.",
+          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
