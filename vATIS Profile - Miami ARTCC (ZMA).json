@@ -3,7 +3,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025042302,
+  "updateSerial": 2025042701,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -10286,7 +10286,7 @@
           "name": "VIS 19L/19R",
           "airportConditions": "SIMULTANEOUS VISUAL APPROACH RY 19R AND RY 19L IN USE.",
           "notams": "ALL ACFT @RQRD TO HAVE @TPNDR ON WHEN @OPNG ON TWYS AND RWYS. BIRD ACTIVITY VICINITY ARPT.",
-          "template": "",
+          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
