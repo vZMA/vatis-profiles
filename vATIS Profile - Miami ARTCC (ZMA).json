@@ -2,7 +2,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025052601,
+  "updateSerial": 2025052801,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -1947,8 +1947,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTICE TO AIR MISSIONS. {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "NOTICE TO AIR MEN. {notams}",
+            "voice": "NOTICE TO AIR MEN: {notams}"
           }
         },
         "closingStatement": {
@@ -4104,8 +4104,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTICE TO AIR MISSIONS. {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "NOTICE TO AIR MEN. {notams}",
+            "voice": "NOTICE TO AIR MEN: {notams}"
           }
         },
         "closingStatement": {
@@ -6238,8 +6238,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "NOTAM. {notams}",
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -6275,8 +6275,8 @@
           "id": "0baeda16-2698-4e3f-9c53-e290ed9cf453",
           "ordinal": 2,
           "name": "EAST",
-          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 10L OR 10R. DEPG RWYS RWY 10L AND 10R. PARL OPS ARE BEING CNTD. CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "notams": "",
+          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 10L OR 10R. DEPG RWYS RWY 10L AND 10R. PARL OPS ARE BEING CNTD.",
+          "notams": "CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -6286,8 +6286,8 @@
           "id": "0e4da426-bd44-4f41-975e-ba1615f6e90e",
           "ordinal": 3,
           "name": "WEST",
-          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 28R OR 28L. DEPG RWYS RWY 28R AND 28L. PARL OPS ARE BEING CNTD. CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "notams": "",
+          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 28R OR 28L. DEPG RWYS RWY 28R AND 28L. PARL OPS ARE BEING CNTD.",
+          "notams": "CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -6297,8 +6297,8 @@
           "id": "e221394a-f915-4517-b955-1b06dbb03805",
           "ordinal": 4,
           "name": "EAST NIGHT",
-          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 10L, RWY @10R_28L NOISE SENSITIVE TILL 6 AM. DEPG RWYS RWY 10L. CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "notams": "",
+          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 10L, RWY @10R_28L NOISE SENSITIVE TILL 6 AM. DEPG RWYS RWY 10L.",
+          "notams": "CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -6308,8 +6308,8 @@
           "id": "c7af1fd6-4812-4ee2-a037-aef0c0f2aa4d",
           "ordinal": 5,
           "name": "WEST NIGHT",
-          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 28R, RWY @10R_28L NOISE SENSITIVE TILL 6 AM. DEPG RWYS RWY 28R. CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
-          "notams": "",
+          "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 28R, RWY @10R_28L NOISE SENSITIVE TILL 6 AM. DEPG RWYS RWY 28R.",
+          "notams": "CRANES INOVF THE AIRPORT. SHORELINE TRAFFIC. NUMEROUS BIRDS IN THE VICINITY OF THE AIRPORT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -8315,7 +8315,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -10376,7 +10376,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -12469,8 +12469,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTICE TO AIR MISSIONS. {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "NOTICE TO AIRMEN. {notams}",
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -14539,8 +14539,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTICE TO AIR MISSIONS, NOTAMS. {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "NOTICE TO AIRMEN, NOTAMS. {notams}",
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -14576,8 +14576,8 @@
           "id": "3aab4def-4792-4ee6-a389-5ccc441baddb",
           "ordinal": 2,
           "name": "VIS 6",
-          "airportConditions": "VISUAL APPROACH RWY 6 IN USE.",
-          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "airportConditions": "VISUAL APPROACH RWY 6 IN USE. NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -14587,8 +14587,8 @@
           "id": "cb23a4da-3aea-455e-ab8c-7887f8d24243",
           "ordinal": 3,
           "name": "VIS 24",
-          "airportConditions": "VISUAL APPROACH RY 24 IN USE.",
-          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "airportConditions": "VISUAL APPROACH RY 24 IN USE. NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -14598,8 +14598,8 @@
           "id": "793e1a9d-3295-45fb-b9f2-6eff0e358fd5",
           "ordinal": 4,
           "name": "ILS 6",
-          "airportConditions": "ILS RWY 6 APPROACH IN USE.",
-          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "airportConditions": "ILS RWY 6 APPROACH IN USE. NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -14609,8 +14609,8 @@
           "id": "676f437f-e1e5-477d-bfa4-6adef6b1482f",
           "ordinal": 5,
           "name": "RNAV 24",
-          "airportConditions": "RNAV RWY 24 APPROACH IN USE.",
-          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "airportConditions": "RNAV RWY 24 APPROACH IN USE. NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -14620,8 +14620,8 @@
           "id": "53c00f66-f26c-41c4-93d5-67f28f480685",
           "ordinal": 6,
           "name": "RNAV 6",
-          "airportConditions": "RNAV RWY 6 APPROACH IN USE.",
-          "notams": "NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "airportConditions": "RNAV RWY 6 APPROACH IN USE. NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -16553,7 +16553,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -18520,7 +18520,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -20527,7 +20527,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -22494,7 +22494,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -24461,7 +24461,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -26448,7 +26448,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -28415,7 +28415,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -30422,7 +30422,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -32389,7 +32389,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -34396,7 +34396,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -36363,7 +36363,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -38330,7 +38330,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -40297,7 +40297,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -42304,7 +42304,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -44311,7 +44311,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -46318,7 +46318,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -48325,7 +48325,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
