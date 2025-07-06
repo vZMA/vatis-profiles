@@ -2,7 +2,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025070501,
+  "updateSerial": 2025070502,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -36431,7 +36431,7 @@
       "transitionLevels": []
     },
     {
-      "id": "769e147b-42fe-4fad-a018-a71475a8cf14",
+      "id": "769e147b-42fe-4fad-a019-a71475a8cf14",
       "ordinal": 19,
       "identifier": "KFPR",
       "name": "Fort Pierce",
@@ -38398,7 +38398,7 @@
       "transitionLevels": []
     },
     {
-      "id": "769e147b-42fe-4fad-a019-a71475a8cf14",
+      "id": "769e147b-42fe-4fad-a020-a71475a8cf14",
       "ordinal": 20,
       "identifier": "KSUA",
       "name": "Stuart",
@@ -40405,7 +40405,7 @@
       "transitionLevels": []
     },
     {
-      "id": "769e147b-42fe-4fad-a020-a71475a8cf14",
+      "id": "769e147b-42fe-4fad-a021-a71475a8cf14",
       "ordinal": 21,
       "identifier": "KVRB",
       "name": "Vero Beach",
@@ -42412,7 +42412,7 @@
       "transitionLevels": []
     },
     {
-      "id": "769e147b-42fe-4fad-a021-a71475a8cf14",
+      "id": "769e147b-42fe-4fad-a022-a71475a8cf14",
       "ordinal": 22,
       "identifier": "KAPF",
       "name": "Naples",
@@ -44419,7 +44419,7 @@
       "transitionLevels": []
     },
     {
-      "id": "769e147b-42fe-4fad-a022-a71475a8cf14",
+      "id": "769e147b-42fe-4fad-a023-a71475a8cf14",
       "ordinal": 23,
       "identifier": "KFMY",
       "name": "Page Field",
@@ -46426,7 +46426,7 @@
       "transitionLevels": []
     },
     {
-      "id": "769e147b-42fe-4fad-a023-a71475a8cf14",
+      "id": "769e147b-42fe-4fad-a024-a71475a8cf14",
       "ordinal": 24,
       "identifier": "KPGD",
       "name": "Punta Gorda",
