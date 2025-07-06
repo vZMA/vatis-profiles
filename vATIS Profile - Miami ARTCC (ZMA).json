@@ -2,7 +2,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025052801,
+  "updateSerial": 20250705,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -36432,7 +36432,7 @@
     },
     {
       "id": "769e147b-42fe-4fad-a018-a71475a8cf14",
-      "ordinal": 18,
+      "ordinal": 19,
       "identifier": "KFPR",
       "name": "Fort Pierce",
       "atisType": "Combined",
@@ -38399,7 +38399,7 @@
     },
     {
       "id": "769e147b-42fe-4fad-a019-a71475a8cf14",
-      "ordinal": 19,
+      "ordinal": 20,
       "identifier": "KSUA",
       "name": "Stuart",
       "atisType": "Combined",
@@ -40406,7 +40406,7 @@
     },
     {
       "id": "769e147b-42fe-4fad-a020-a71475a8cf14",
-      "ordinal": 20,
+      "ordinal": 21,
       "identifier": "KVRB",
       "name": "Vero Beach",
       "atisType": "Combined",
@@ -42413,7 +42413,7 @@
     },
     {
       "id": "769e147b-42fe-4fad-a021-a71475a8cf14",
-      "ordinal": 21,
+      "ordinal": 22,
       "identifier": "KAPF",
       "name": "Naples",
       "atisType": "Combined",
@@ -44420,7 +44420,7 @@
     },
     {
       "id": "769e147b-42fe-4fad-a022-a71475a8cf14",
-      "ordinal": 22,
+      "ordinal": 23,
       "identifier": "KFMY",
       "name": "Page Field",
       "atisType": "Combined",
@@ -46427,7 +46427,7 @@
     },
     {
       "id": "769e147b-42fe-4fad-a023-a71475a8cf14",
-      "ordinal": 23,
+      "ordinal": 24,
       "identifier": "KPGD",
       "name": "Punta Gorda",
       "atisType": "Combined",
