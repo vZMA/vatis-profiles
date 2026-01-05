@@ -2,7 +2,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2025112701,
+  "updateSerial": 2026010501,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -12517,7 +12517,7 @@
           "id": "1e718255-9f49-4e58-94c7-0c127376fa3a",
           "ordinal": 3,
           "name": "WEST",
-          "airportConditions": "ILS RWY 28R IN USE. LNDG AND DEPG RWY 28R, 28L, 32. SIMUL APCHS TO PARL INTG AND OR CNVGG RWYS ARE BEING CONDUCTED. READ BACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+          "airportConditions": "RNAV X RWY 28R IN USE. LNDG AND DEPG RWY 28R, 28L, 32. SIMUL APCHS TO PARL INTG AND OR CNVGG RWYS ARE BEING CONDUCTED. READ BACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "notams": "BIRD ACTIVITY VC OF ARPT. USE CAUTION RWY @10R_28L IS DIFFICULT TO SEE.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -14609,7 +14609,7 @@
           "id": "676f437f-e1e5-477d-bfa4-6adef6b1482f",
           "ordinal": 5,
           "name": "RNAV 24",
-          "airportConditions": "RNAV RWY 24 APPROACH IN USE. NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
+          "airportConditions": "RNAV Y RWY 24 APPROACH IN USE. NUMEROUS CRANES INVOF THE AIRPORT. CAUTION, BIRDS AND WILDLIFE ON AND IN THE @VCNTY OF @KRSW.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
