@@ -2,7 +2,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2026010501,
+  "updateSerial": 2026052501,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -1982,9 +1982,9 @@
         },
         {
           "id": "ce5d7a4c-e3d0-458a-8e70-4c590f827e2e",
-          "ordinal": 2,
-          "name": "EAST",
-          "airportConditions": "DEPG RWYS 8L, 8R, 9, 12.",
+          "ordinal": 1,
+          "name": "EAST LAHSO",
+          "airportConditions": "DEPG RWYS 8L, 8R.",
           "notams": "BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -1993,7 +1993,7 @@
         },
         {
           "id": "b33b5901-8683-4a97-b93d-f35349bf3604",
-          "ordinal": 3,
+          "ordinal": 2,
           "name": "WEST",
           "airportConditions": "DEPG RWYS 26L, 26R, 27. GLADZ SID EXP @6000FT FOR AT LEAST @45MI. CTC CD IF UNABLE.",
           "notams": "BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
@@ -2003,9 +2003,20 @@
           }
         },
         {
+          "id": "487a9814-2dc6-42aa-b59a-b7f5eb5ee35c",
+          "ordinal": 3,
+          "name": "EAST NO LAHSO",
+          "airportConditions": "DEPG RWYS 8L, 8R, 12. ALL @DEPT AT MAIN TERMINAL EXPECT @8R AT @M2. @9200FT AVAILABLE.",
+          "notams": "BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
           "id": "880ddf23-b210-459b-9aa1-5de228aa2e23",
-          "ordinal": 4,
-          "name": "EAST 8R/9",
+          "ordinal": 5,
+          "name": "EAST NIGHT",
           "airportConditions": "DEPG RWYS 8R, 9.",
           "notams": "RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
@@ -2015,76 +2026,10 @@
         },
         {
           "id": "cbb4714d-25dc-447c-868e-74e2533e0aa1",
-          "ordinal": 5,
-          "name": "WEST 26L/27",
+          "ordinal": 6,
+          "name": "WEST NIGHT",
           "airportConditions": "DEPG RWYS 26L, 27. GLADZ SID EXP @6000FT FOR AT LEAST @45MI. CTC CD IF UNABLE.",
           "notams": "RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
-          "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "487a9814-2dc6-42aa-b59a-b7f5eb5ee35c",
-          "ordinal": 6,
-          "name": "EAST HIGH RATE",
-          "airportConditions": "DEPG RWYS 8L, 8R, 9, 12. ALL @DEPT AT MAIN TERMINAL EXPECT @8R AT @M2. @9200FT AVAILABLE.",
-          "notams": "BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
-          "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "7eafff75-a611-4f62-a32d-a93b2334b3e5",
-          "ordinal": 7,
-          "name": "EAST 8L/8R/9",
-          "airportConditions": "DEPG RWYS 8L, 8R, 9.",
-          "notams": "RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
-          "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "b1abb08e-75e4-46e6-a59b-21e50f84fd67",
-          "ordinal": 8,
-          "name": "EAST 8L/9",
-          "airportConditions": "DEPG RWYS 8L, 9.",
-          "notams": "RWYS 8R, 26L CLSD, RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
-          "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "5d9838ca-7775-4fd7-9522-d726a2c6c4bc",
-          "ordinal": 9,
-          "name": "WEST 26L/26R/27/30",
-          "airportConditions": "DEPG RWYS 26L, 26R, 27, 30. GLADZ SID EXP @6000FT FOR AT LEAST @45MI. CTC CD IF UNABLE.",
-          "notams": "BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
-          "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "0ebb6ac4-3aba-46c3-b885-cf53e6fa6d13",
-          "ordinal": 10,
-          "name": "EAST 8R/9 NO LUAW",
-          "airportConditions": "DEPG RWYS 8R, 9. LINE UP AND WAIT NOT AUTHORIZED.",
-          "notams": "RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
-          "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "d961c4da-4cbe-4665-bb4e-7e0febdef5f6",
-          "ordinal": 11,
-          "name": "EAST 8L/9 NO LUAW",
-          "airportConditions": "DEPG RWYS 8L, 9. LINE UP AND WAIT NOT AUTHORIZED.",
-          "notams": "RWYS 8R, 26L CLSD, RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -4139,9 +4084,9 @@
         },
         {
           "id": "61838518-e170-4cf8-a389-4d4801f757bc",
-          "ordinal": 2,
-          "name": "EAST",
-          "airportConditions": "APCHS BEING CONDUCTED TO PARL CONVERGING AND INTERSECTING RWYS. ARRIVALS EXPECT ILS RWY 8R, RWY 9, RWY 12. RNAV OR GPS APCH RWY 8L. LDA RWY 12 TO HOLD SHORT OF RWY 9 IS @8100FT. LDA RWY 9 TO HOLD SHORT OF RWY 12 IS @9750FT. IF UNA TO HOLD SHORT NTFY APCH ON INITIAL CTC OR ASAP.",
+          "ordinal": 1,
+          "name": "EAST LAHSO",
+          "airportConditions": "APCHS BEING CONDUCTED TO PARL CONVERGING AND INTERSECTING RWYS. ARRIVALS EXPECT ILS RWY 9, RWY 12. RNAV OR GPS APCH RWY 8L. LDA RWY 12 TO HOLD SHORT OF RWY 9 IS @8100FT. LDA RWY 9 TO HOLD SHORT OF RWY 12 IS @9750FT. IF UNA TO HOLD SHORT NTFY APCH ON INITIAL CTC OR ASAP.",
           "notams": "BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -4150,9 +4095,31 @@
         },
         {
           "id": "21b63fa1-f1b2-44b6-b28e-e077b3246096",
+          "ordinal": 2,
+          "name": "WEST 26R/30 ARR",
+          "airportConditions": "APCHS BEING CONDUCTED TO PARL CONVERGING AND INTERSECTING RWYS. ARRIVALS EXPECT ILS RWY 30. RNAV OR GPS APCH RWY 26R.",
+          "notams": "BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "81ba20da-5451-4916-b7c0-753d5b0a7ce4",
           "ordinal": 3,
-          "name": "WEST",
-          "airportConditions": "APCHS BEING CONDUCTED TO PARL CONVERGING AND INTERSECTING RWYS. ARRIVALS EXPECT ILS RWY 26L, RWY 27, RWY 30. RNAV OR GPS APCH RWY 26R.",
+          "name": "EAST NO LAHSO",
+          "airportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RWY 9. RNAV OR GPS APCH RWY 8L.",
+          "notams": "BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "1f9504c2-e835-4efe-b243-6997b5ead283",
+          "ordinal": 4,
+          "name": "WEST PARALLEL",
+          "airportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RWY 27. RNAV OR GPS APCH RWY 26R.",
           "notams": "BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -4161,8 +4128,8 @@
         },
         {
           "id": "90333fac-1348-44ac-932b-24234b879f6e",
-          "ordinal": 4,
-          "name": "EAST 8R/9",
+          "ordinal": 5,
+          "name": "EAST NIGHT",
           "airportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RWY 8R, RWY 9.",
           "notams": "RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
@@ -4172,43 +4139,10 @@
         },
         {
           "id": "1f9504c2-e835-4efe-b243-6997b5ead283",
-          "ordinal": 5,
-          "name": "WEST 26L/27",
-          "airportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RWY 26L, RWY 27.",
-          "notams": "RWY 27 CLSD TURBOJET ARRIVALS. RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
-          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "81ba20da-5451-4916-b7c0-753d5b0a7ce4",
           "ordinal": 6,
-          "name": "EAST PARL",
-          "airportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RWY 8R, RWY 9, RWY 12. RNAV OR GPS APCH RWY 8L. LDA RWY 12 TO HOLD SHORT OF RWY 9 IS @8100FT. LDA RWY 9 TO HOLD SHORT OF RWY 12 IS @9750FT. IF UNA TO HOLD SHORT NTFY APCH ON INITIAL CTC OR ASAP.",
-          "notams": "BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
-          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "b17c12f9-a5f2-419f-aabf-eb5658f916e2",
-          "ordinal": 7,
-          "name": "EAST 8L/8R/9",
-          "airportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RWY 8R, RWY 9. RNAV OR GPS APCH RWY 8L.",
-          "notams": "RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
-          "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "adddeccd-63af-4495-8f83-fe0f22f06630",
-          "ordinal": 8,
-          "name": "EAST 8L/9",
-          "airportConditions": "PARL APPROACHES IN USE. ARRIVALS EXPECT ILS RWY 9. RNAV OR GPS APCH RWY 8L.",
-          "notams": "RWYS 8R, 26L CLSD, RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
+          "name": "WEST NIGHT",
+          "airportConditions": "ARRIVALS EXPECT ILS RWY 26L.",
+          "notams": "RWY 27 CLSD TURBOJET ARRIVALS. RWYS 8L, 26R CLSD, RWYS 12, 30 CLSD. BIRDS INVOF @MIA. ALL ACFT READ BACK ALL HOLD SHRT INSTRUCTIONS AND ASSIGNED ALT.",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
