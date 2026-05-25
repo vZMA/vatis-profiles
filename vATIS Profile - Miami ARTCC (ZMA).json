@@ -2,7 +2,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2026052502,
+  "updateSerial": 2026052503,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -4138,7 +4138,7 @@
           }
         },
         {
-          "id": "1f9504c2-e835-4efe-b243-6997b5ead283",
+          "id": "1f9504c2-e835-4efe-b243-6997b5ead284",
           "ordinal": 6,
           "name": "WEST NIGHT",
           "airportConditions": "ARRIVALS EXPECT ILS RWY 26L.",
