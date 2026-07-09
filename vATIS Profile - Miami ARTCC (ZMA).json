@@ -2,7 +2,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2026052901,
+  "updateSerial": 2026070901,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -10485,7 +10485,7 @@
     {
       "id": "1496b69f-2360-400b-8def-14c27bed6f96",
       "ordinal": 5,
-      "identifier": "KPBI",
+      "identifier": "KDJT",
       "name": "Palm Beach",
       "atisType": "Combined",
       "codeRange": {
