@@ -2,7 +2,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2026070901,
+  "updateSerial": 2026072401,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -48304,8 +48304,8 @@
         },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e4",
-          "name": "15 VMC",
-          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 15.",
+          "name": "13 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 13.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -48314,8 +48314,8 @@
         },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e5",
-          "name": "15 IMC",
-          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 15.",
+          "name": "13 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 13.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -48324,8 +48324,8 @@
         },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e6",
-          "name": "33 VMC",
-          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 33.",
+          "name": "31 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 31.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -48334,8 +48334,8 @@
         },
         {
           "id": "8ab479ba-3e28-4ece-a123-e47d68e130e7",
-          "name": "33 IMC",
-          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 33.",
+          "name": "31 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 31.",
           "notams": "BIRD ACTIVITY VICINITY ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
