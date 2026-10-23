@@ -2,7 +2,7 @@
   "name": "Miami ARTCC (ZMA)",
   "id": "15f9ae6a-59fe-4261-be09-8587fcbda6cb",
   "updateUrl": "https://raw.githubusercontent.com/vZMA/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Miami%20ARTCC%20(ZMA).json",
-  "updateSerial": 2026102302,
+  "updateSerial": 2026102303,
   "stations": [
     {
       "id": "478ad86d-edd0-47b1-972a-f68345fd3f3f",
@@ -2274,13 +2274,7 @@
           "name": "D-ATIS",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -4898,13 +4892,7 @@
           "name": "D-ATIS",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -7521,13 +7509,7 @@
           "name": "D-ATIS",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -9992,13 +9974,7 @@
           "name": "D-ATIS",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -12473,13 +12449,7 @@
           "name": "D-ATIS",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -14987,13 +14957,7 @@
           "name": "D-ATIS",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -17477,13 +17441,7 @@
           "name": "D-ATIS",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -45013,13 +44971,7 @@
           "notams": "USE CAUTION BIRD ACTIVITY ON AND IN THE VICINITY OF THE AIRPORT.",
           "template": "BOCA TOWER INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]. [CLOSING]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -45030,13 +44982,7 @@
           "notams": "USE CAUTION BIRD ACTIVITY ON AND IN THE VICINITY OF THE AIRPORT.",
           "template": "BOCA TOWER INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]. [CLOSING]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -45047,13 +44993,7 @@
           "notams": "USE CAUTION BIRD ACTIVITY ON AND IN THE VICINITY OF THE AIRPORT.",
           "template": "BOCA TOWER INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]. [CLOSING]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -45064,13 +45004,7 @@
           "notams": "USE CAUTION BIRD ACTIVITY ON AND IN THE VICINITY OF THE AIRPORT.",
           "template": "BOCA TOWER INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]. [CLOSING]",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         },
         {
@@ -45080,13 +45014,7 @@
           "notams": "USE CAUTION BIRD ACTIVITY ON AND IN THE VICINITY OF THE AIRPORT.",
           "template": "BOCA TOWER CLOSED. COMMON TFC ADVZY FREQ 118.425. AUTOMATED WEATHER OBSERVATION [TIME]. [WX]. [ARPT_COND] [NOTAMS]. FOR ADDITIONAL INFORMATION CTC PALM BEACH APP.",
           "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
+            "enabled": false
           }
         }
       ],
