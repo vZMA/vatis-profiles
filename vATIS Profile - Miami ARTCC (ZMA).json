@@ -2274,7 +2274,13 @@
           "name": "D-ATIS",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2425,7 +2431,198 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": "CD FREQ 121.8",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CTC CD IF UNABLE",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "FREQ 121.8 OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RVR RUNWAY NINER TOUCH DOWN OUT FOR MAINTENANCE",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NO GENERAL AVIATION PARKING",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "PASSENGER DROP OFFS ONLY",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? PAPI OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RUNWAY \\d{1,2}[LR]? TOUCHDOWN RVR OFM",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY 26R, RWY 26L FREQ 118.3 RWY 27, RWY 30 FREQ 123.9",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY 8L, RWY 8R FREQ 118.3 RWY 9, RWY 12 FREQ 123.9",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY 8L, RWY 8R FREQ 118.3 RWY 9, RWY 12 FREQ 123.9, CD FREQ 121.8",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY 8L, RWY 8R FREQ 118.3 RWY 9, RWY 12 FREQ 123.9, GROUND CONTROL FREQUENCY 127.5",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY 8L, RWY 8R FREQ 118.3 RWY 9, RWY 12 FREQ 123.9, GROUND CONTROL USE 127.5",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? GS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR]? REILS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RUNWAY \\d{1,2}[LR]? RVR TOUCHDOWN OFM",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "TWR FREQ IS 118.3",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ IS 118.3, CD FREQ 121.8",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR, GROUND, CLEARANCE ON 118.3",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR, GROUND, CLEARANCE ON 118.3, CD FREQ 121.8",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "UAS ACTIVITY REPORTED, \\d{1,2} MILES \\w{1,} OF MIA \\d{1,4}\\s?FT",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UAS ACTIVITY REPORTED, \\d{1,2} MILES \\w{1,} OF MIA \\w{1,} DRONE \\d{1,4}\\s?FT \\w{1,} SIDE FINAL RWY \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UAS ACTIVITY REPORTED, \\d{1,2} MILES \\w{1,} OF MIA \\w{3,} THOUSAND \\w{3,} HUNDRED",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNAUTHORIZED LASER ILLUMINATION AT \\d{4} ZULU, \\d{1,2} MILES \\w{3,} OF, MIA, AT \\d{1,4} THOUSAND FEET \\w{3,} IN COLOR",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNAUTHORIZED LASER ILLUMINATION AT \\d{4} ZULU, \\d{1,2} \\w{3,} OF, MIA, \\w{3,} IN COLOR",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "DHP, VKZ VOR OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "VKZ VOR OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "DHP VOR OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CHECK NOTAMS FOR TFR",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "UAS ACTIVITY REPORTED, UAS IN THE VICINITY OF THE AIRPORT",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "ATTENTION ALL DEPARTURES, NORTH DEPARTURE FREQUENCY IS 126.85",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "FREQ 119.45 OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "ALL DEPT AT MAIN TERMINAL EXPECT 8R AT M2. 9,200 FT AVAILABLE",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NORTHBOUND DEPARTURE FREQUENCY 126.85",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "DEPARTURE FREQUENCY 125.25 INSTEAD OF 125.5",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? MALSR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "FREQ 125.5 OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "SOUTH DEPARTURE FREQUENCY 125.25",
+          "replacement": "",
+          "isRegex": false
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -4701,7 +4898,13 @@
           "name": "D-ATIS",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4851,7 +5054,198 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": "CD FREQ 121.8",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CTC CD IF UNABLE",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "FREQ 121.8 OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RVR RUNWAY NINER TOUCH DOWN OUT FOR MAINTENANCE",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NO GENERAL AVIATION PARKING",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "PASSENGER DROP OFFS ONLY",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? PAPI OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RUNWAY \\d{1,2}[LR]? TOUCHDOWN RVR OFM",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY 26R, RWY 26L FREQ 118.3 RWY 27, RWY 30 FREQ 123.9",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY 8L, RWY 8R FREQ 118.3 RWY 9, RWY 12 FREQ 123.9",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY 8L, RWY 8R FREQ 118.3 RWY 9, RWY 12 FREQ 123.9, CD FREQ 121.8",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY 8L, RWY 8R FREQ 118.3 RWY 9, RWY 12 FREQ 123.9, GROUND CONTROL FREQUENCY 127.5",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY 8L, RWY 8R FREQ 118.3 RWY 9, RWY 12 FREQ 123.9, GROUND CONTROL USE 127.5",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? GS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR]? REILS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RUNWAY \\d{1,2}[LR]? RVR TOUCHDOWN OFM",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "TWR FREQ IS 118.3",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ IS 118.3, CD FREQ 121.8",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR, GROUND, CLEARANCE ON 118.3",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR, GROUND, CLEARANCE ON 118.3, CD FREQ 121.8",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "UAS ACTIVITY REPORTED, \\d{1,2} MILES \\w{1,} OF MIA \\d{1,4}\\s?FT",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UAS ACTIVITY REPORTED, \\d{1,2} MILES \\w{1,} OF MIA \\w{1,} DRONE \\d{1,4}\\s?FT \\w{1,} SIDE FINAL RWY \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UAS ACTIVITY REPORTED, \\d{1,2} MILES \\w{1,} OF MIA \\w{3,} THOUSAND \\w{3,} HUNDRED",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNAUTHORIZED LASER ILLUMINATION AT \\d{4} ZULU, \\d{1,2} MILES \\w{3,} OF, MIA, AT \\d{1,4} THOUSAND FEET \\w{3,} IN COLOR",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNAUTHORIZED LASER ILLUMINATION AT \\d{4} ZULU, \\d{1,2} \\w{3,} OF, MIA, \\w{3,} IN COLOR",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "DHP, VKZ VOR OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "VKZ VOR OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "DHP VOR OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CHECK NOTAMS FOR TFR",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "UAS ACTIVITY REPORTED, UAS IN THE VICINITY OF THE AIRPORT",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "ATTENTION ALL DEPARTURES, NORTH DEPARTURE FREQUENCY IS 126.85",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "FREQ 119.45 OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "ALL DEPT AT MAIN TERMINAL EXPECT 8R AT M2. 9,200 FT AVAILABLE",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NORTHBOUND DEPARTURE FREQUENCY 126.85",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "DEPARTURE FREQUENCY 125.25 INSTEAD OF 125.5",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? MALSR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "FREQ 125.5 OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "SOUTH DEPARTURE FREQUENCY 125.25",
+          "replacement": "",
+          "isRegex": false
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -7127,7 +7521,13 @@
           "name": "D-ATIS",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -7230,7 +7630,113 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": "\\d+ / \\d+ / \\d+ AT \\d{4} ZULU",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "\\d+ / \\d+ / \\d+ AT \\d{4} ZULU, RUNWAY \\d\\d[LR] CONDITION CODE",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d\\d[LR] CONDITION CODES",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d\\d[LR] CONDITION CODE",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d\\d[LR] THRESHOLD LGTS OTS.",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "CTC CD ON 121.4",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CTC FSS FOR INFO",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CTC GND 121.4 FOR PUSHBACK",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "G ENTRANCE AT SHELTAIR CLSD",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ FOR CD, GND, PUSHBACK, AND TAXI IS 119.3",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TAXIWAY GOLF AT SHELTAIR CLOSED",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ FOR RWY 10L IS 119.3 TWR FREQ FOR RWY 10R IS 120.2",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ FOR RWY 10L IS 119.3 TWR FREQ FOR RWY 10R IS 120.2, CTC CD ON 121.4",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ FOR RWY 28R IS 119.3 TWR FREQ FOR RWY 28L IS 120.2",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ FOR RWY 28R IS 119.3 TWR FREQ FOR RWY 28L IS 120.2, CTC CD ON 121.4",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ IS 119.3",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ IS 119.3, CTC CD ON 121.4",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ IS 120.2",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TWR FREQ IS 120.2, CTC CD ON 121.4",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "UNAUTH LASER ULLIMINATION EVENT AT \\d{4} ZULU \\d{1,4} MILE FINAL AT \\d{1,4} FEET, \\w{3,} IN COLOR, FROM THE \\w{3,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "TWR FREQ FOR CD, GND, AND TAXI IS 119.3",
+          "replacement": "",
+          "isRegex": false
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -9506,7 +10012,13 @@
           "name": "D-ATIS",
           "template": "[FACILITY] DEP INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -9594,7 +10106,118 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": "01L",
+          "replacement": "1L",
+          "isRegex": false
+        },
+        {
+          "pattern": "01R",
+          "replacement": "1R",
+          "isRegex": false
+        },
+        {
+          "pattern": " ;, ",
+          "replacement": ", ",
+          "isRegex": false
+        },
+        {
+          "pattern": " ; ",
+          "replacement": "; ",
+          "isRegex": false
+        },
+        {
+          "pattern": "BIG BLACK HAWK REPORTED ON ONE LEFT FINAL 100 FEET",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CONTACT GROUND ON 121.35",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? SFL OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? PAPI OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? ALS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? RVR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? \\d{1,2}[LR]? SFL OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? \\d{1,2}[LR]? PAPI OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? \\d{1,2}[LR]? ALS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? \\d{1,2}[LR]? RVR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR]? RVR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "FREQ 121.7 OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR] ALS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR] SFL OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR] RVR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR] PAPI OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "ALL AIRCRAFT ADVISE GROUND CONTROL PRIOR TO PUSHBACK",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RY 10,28 EDGE LGTS OTS",
+          "replacement": "",
+          "isRegex": false
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -11870,7 +12493,13 @@
           "name": "D-ATIS",
           "template": "[FACILITY] ARR INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -11991,7 +12620,118 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": "01L",
+          "replacement": "1L",
+          "isRegex": false
+        },
+        {
+          "pattern": "01R",
+          "replacement": "1R",
+          "isRegex": false
+        },
+        {
+          "pattern": " ;, ",
+          "replacement": ", ",
+          "isRegex": false
+        },
+        {
+          "pattern": " ; ",
+          "replacement": "; ",
+          "isRegex": false
+        },
+        {
+          "pattern": "BIG BLACK HAWK REPORTED ON ONE LEFT FINAL 100 FEET",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CONTACT GROUND ON 121.35",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? SFL OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? PAPI OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? ALS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? RVR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? \\d{1,2}[LR]? SFL OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? \\d{1,2}[LR]? PAPI OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? \\d{1,2}[LR]? ALS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY (\\d{1,2}[LR]?\\, ){1,}\\d{1,2}[LR]? \\d{1,2}[LR]? RVR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR]? RVR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "FREQ 121.7 OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR] ALS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR] SFL OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR] RVR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR] PAPI OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "ALL AIRCRAFT ADVISE GROUND CONTROL PRIOR TO PUSHBACK",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RY 10,28 EDGE LGTS OTS",
+          "replacement": "",
+          "isRegex": false
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -14267,7 +15007,13 @@
           "name": "D-ATIS",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -14364,7 +15110,118 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": "AUTHORIZED DRONES \\d{1,2} MILES \\w{1,} OF THE AIRPORT AOB \\d{1,4} FT AGL",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "BA ADVZYS IN EFCT",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CHECK NOTAM 5 6 2 5 2 FOR T F R",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "DEPARTURE END",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "DRONES \\d{1,2} \\w{1,} \\w{1,} BELOW \\d{1,4} FEET",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "DRONES \\d{1,2} \\w{1,} BELOW \\d{1,4} FEET",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "FICON \\d \\d \\d",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "GA CUSTOMS RAMP SOUTH ACCESS CLSD",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "PALM BEACH LLWAS OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "PALM BEACH VOR OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]?, \\d{1,2}[LR]? REIL OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? REIL OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? CONDITION CODES, \\d, \\d, \\d, AT \\d{1,4}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UAS ACTIITY \\d{1,2} MILE \\w{1,} OF PBI AOB \\d{1,4} FEET",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "USE CAUTION DRONE ACTIVITY \\d{1,2} NM \\w{1,} OF PBI AT OR BELOW \\d{1,4} FT AGL",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "USE CAUTION DRONE ACTIVITY \\d{1,2} NM \\w{1,} OF PBI AT OR BELOW \\d{1,4} FT",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "USE CAUTION FIRE WORKS OVER MAR A LAGO STARTING AT \\w{1,} \\w{1,} PM",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "USE CAUTION FOR UNAUTHORIZED LASER EVENT \\w{1,} MILES \\w{1,} OF PALM BEACH AIRPORT \\w{1,} IN COLOR",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "USE CAUTION \\w{1,} LASER ILLUMINATION REPORTED \\w{1,} MILES \\w{1,} OF THE AIRPORT",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "PALM BEACH TACAN OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RVAV",
+          "replacement": "RNAV",
+          "isRegex": false
+        },
+        {
+          "pattern": "TFR IN EFFECT CHECK NOTAMS",
+          "replacement": "",
+          "isRegex": false
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -16640,7 +17497,13 @@
           "name": "D-ATIS",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -16724,7 +17587,118 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": ";,",
+          "replacement": ";",
+          "isRegex": false
+        },
+        {
+          "pattern": ";.",
+          "replacement": ".",
+          "isRegex": false
+        },
+        {
+          "pattern": "EXPECT DEPARTURE DELAYS FOR IN TRAIL SPACING",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CD AND GC COMBINED ON 121.9",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CD AND GC COMBINED ON 128.75",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "\\w{1,} MILES \\w{1,} \\w{1,} OF SOUTHWEST FLORIDA INTERNATIONAL AIRPORT, \\d{1,4} FEET, \\w{1,} LASER, FROM THE \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "\\w{1,} MILES \\w{1,} OF SOUTHWEST FLORIDA INTERNATIONAL AIRPORT, \\d{1,4} FEET, \\w{1,} LASER, FROM THE \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "FREQ 124.125 OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "LBV TACAN OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NMRS MARKINGS NOT STD CHECK NOTAMS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NUMEROUS CRANES INVOF THE AIRPORT",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RSW PRIMARY RADAR OUT OF SERVICE",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RSW VOR OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY \\d{1,2} PAPI OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d{1,2} REILS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d{1,2} RVR OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNAUTH LASER ILLUMINATION EVENT",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "VFR SERVICES AVAILABLE ONLY TO AIRCRAFT WITH TRANSPONDERS AND WILL BE LIMITED TO SAFETY ALERTS, TRAFFIC ADVISORIES, AND SEQUENCING TO SOWTH WEST FLORIDA INTERNATIONAL AIRPORT",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "VFR SERVICES AVAILABLE ONLY TO AIRCRAFT WITH TRANSPONDERSAND WILL BE LIMITED TO SAFETY ALERTS, TRAFFIC ADVISORIES, AND SEQUENCING TO SOWTH WEST FLORIDA INTERNATIONAL AIRPORT",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY 6/24 LEAD OFF CL MARKINGS FADED",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "MOWING \\w{1,} SIDE RWY \\d{1,2}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RSW TACAN OTS",
+          "replacement": "",
+          "isRegex": false
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -18942,12 +19916,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 119675000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -21214,12 +22189,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 124375000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -23526,12 +24502,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 119850000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -25798,12 +26775,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 132275000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -28070,12 +29048,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 135475000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -30362,12 +31341,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 125900000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -32634,12 +33614,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 120550000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -34906,12 +35887,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 124000000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -37178,12 +38160,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 118025000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -39490,12 +40473,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 133825000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -41762,12 +42746,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 134500000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -44031,12 +45016,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 121125000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -46346,12 +47332,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 134825000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -48618,12 +49605,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 134475000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -50930,12 +51918,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 120575000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -53242,12 +54231,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 134225000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -55554,12 +56544,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 123725000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -57866,12 +58857,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 135675000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
